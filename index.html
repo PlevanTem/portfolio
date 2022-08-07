@@ -5,19 +5,19 @@
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
+  <meta content="Bufan Deng is studying MSc Human-centered Artificial Intelligence at Technical University of Denmark. He's passionate about user experience and aims to bridge the gap between tech and people." name="description">
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
+  <meta name="keywords" content="Bufan Deng, Portfolio, UX Designer, UX researcher, Copenhagen, Denmark, Design, Developer, LinkedIn, Computer Science, Artificial Intelligence, design is a mind game" />
+  <meta content="Mashup templates have been developped by Orson.io team and modified by Bufan" name="Bufan Deng">
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+  <title>Bufan Deng: AI+UX!!!</title>  
 
-  <title>Bufan Deng</title>  
-
-<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+  <link rel="icon" sizes="180x180" href="./assets/logo.png">
+  <link href="./main.3f6952e4.css" rel="stylesheet">
+  <link href="./costumized_design.css" rel="stylesheet"  type="text/css" >
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:700" rel="stylesheet">
+</head>
 
 <body class="minimal">
 <div id="site-border-left"></div>
@@ -38,7 +38,7 @@
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
           <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./works.html" title="">02 : Projects</a></li>
+          <li><a href="./projects.html" title="">02 : Projects</a></li>
           <li><a href="./about.html" title="">03 : CV</a></li>
           <li><a href="./contact.html" title="">04 : Contact</a></li>
         </ul>
@@ -49,35 +49,54 @@
   </nav>
 </header>
 <!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container black-text-container" style="background-image: url('./assets/images/Mesh\ 8.png')">
+  <div class="hero-full-container background-image-container black-text-container" style="background-image: url('./assets/images/vibrant-liquid-wavy-background-3d-illustration-abstract-iridescent-fluid-render-neon-holographic-smooth-surface-with-colorful-interference-stylish-spectrum-flow-motion.jpg')">
+    <canvas class="background"></canvas>
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <div class="hero-full-wrapper">
             <div class="text-content">
-              <h1>Hello,I'm Bufan Deng<br>
+              <text style="font-size: 40px; font-weight: 800;line-height:120%">
                 <span id="typed-strings">
-                  <span></span>
-                  <span>An UX designer</span>
-                  <span>with A.I. background</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
+                  <span>Hello,</span>
+                </span><br>
+                <span id="typed"></span><br>
+                <span>I'm Bufan Deng.</span><br>
+              </text>
+              <text style="font-size: 30px; font-weight: 80;line-height:120%">
+                An <span class="underline--magical">artificial intelligence</span> student<br>
+                who drives to be an <span class="underline--magical">UX designer.</span>
+              </text>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      type();
      movingBackgroundImage();
   });
+  window.onload = function() {
+    Particles.init({
+      selector: '.background',
+      maxParticles: 400,
+      breakpoint: 300,
+      color: '#f05b0d',
+    });
+    var particles = Particles.init({
+      selector: '.background',
+      color: ['#fff', '#70bf1c', '#4d8811'],
+      connectParticles: false
+    });
+  };
 </script>
 
-
-<script type="text/javascript" src="./main.70a66962.js"></script></body>
+<script type="text/javascript" src="./main.70a66962.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</body>
 
 </html>
